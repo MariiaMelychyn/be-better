@@ -1,0 +1,5 @@
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../../images/vectorBackgrounds/withCouch.svg');
+  }
+}

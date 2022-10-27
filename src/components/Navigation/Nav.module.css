@@ -1,0 +1,11 @@
+.navContainer {
+  @apply hidden laptop:flex justify-around items-center laptop:mr-12;
+}
+
+.links {
+  @apply text-main text-base py-2 px-4 laptop:px-3 desktop:px-4 border-main hover:border-b-2 focus:border-b-2;
+}
+
+.active {
+  @apply border-b-2 border-main;
+}

@@ -1,0 +1,30 @@
+.container {
+  @apply pt-[36px] pb-[36px] px-5  laptop:pt-[55px] laptop:pb-[55px] desktop:pt-[112px] desktop:pb-[112px]  h-[100vh];
+}
+
+.textContainer {
+  @apply w-70 laptop:w-[310px] text-left desktop:w-[416px];
+}
+
+.title {
+  @apply mb-6 laptop:mb-10  text-[59px] font-bold leading-[80.35px] desktop:mb-6;
+}
+.something {
+  @apply mb-2 text-2xl desktop:text-34 desktop:leading-[46.3px] font-semibold desktop:mb-4;
+}
+
+.work {
+  @apply mb-[56px] laptop:mb-[93px] laptop:text-2xl desktop:text-34 desktop:leading-[46.3px] font-semibold desktop:mb-[72px]  text-main;
+}
+
+.timeReturn {
+  @apply mb-20  laptop:text-base laptop:mb-6   desktop:text-xl  leading-[27.24px] font-medium desktop:mb-20;
+}
+
+.link {
+  @apply px-[38px] laptop:px-[53px] font-bold text-lg text-white bg-main rounded-full py-3 desktop:px-15 hover:bg-[#038bab] ease-in duration-300;
+}
+
+.img {
+  @apply laptop:w-[310px] laptop:h-[436px] desktop:w-[390px] desktop:h-[512px];
+}

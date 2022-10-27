@@ -1,0 +1,33 @@
+.guarantee {
+  @apply relative bg-white -z-10 h-[448px] py-8 px-5 laptop:pt-20 laptop:pl-16 laptop:h-[510px] desktop:h-[568px] desktop:pl-[188px] text-left;
+}
+
+.title {
+  @apply mb-[173px] laptop:mb-20 text-center laptop:text-left laptop:text-34 text-mainSecond text-xl font-medium laptop:font-semibold desktop:text-34 desktop:font-semibold;
+}
+
+.text {
+  @apply w-[220px] laptop:w-[310px] text-sm laptop:text-xl laptop:font-medium desktop:w-[432px] desktop:text-xl;
+}
+
+.icon {
+  @apply absolute -z-10 w-12 h-[42px] top-[211px] left-5 laptop:top-[132px] laptop:left-12 desktop:left-40 laptop:w-[118px] laptop:h-[112px] desktop:w-[136px];
+}
+
+.photoMobile {
+  @apply w-[219px] h-[325px] -z-10 top-[90px] right-5;
+}
+
+.photoTablet {
+  @apply w-[594px] h-[510px] -z-10 top-0 right-0;
+}
+
+.photoDesktop {
+  @apply w-1036 h-full -z-10 top-0 right-0;
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../../images/vectorBackgrounds/Guarantee.svg');
+  }
+}

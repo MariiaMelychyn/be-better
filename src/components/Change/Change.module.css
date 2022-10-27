@@ -1,0 +1,41 @@
+.text {
+  @apply font-normal  text-sm laptop:text-base text-start max-w-3xl tablet:pt-72 pl-[20px] pr-[20px] desktop:px-0;
+}
+
+.text p {
+  @apply pb-2 laptop:px-16 desktop:px-0 desktop:mb-[12px];
+}
+
+.text p:nth-child(1) {
+  @apply laptop:w-96 laptop:pr-[21px] desktop:w-[524px] desktop:pr-0;
+}
+
+/* Form */
+.modalform {
+  @apply w-80 pt-10 text-base desktop:w-[440px] desktop:h-[560px] desktop:pt-14 bg-background;
+}
+
+.formtitle {
+  @apply mb-1 desktop:font-medium desktop:text-xl;
+}
+
+.formmargin {
+  @apply mb-2 m-auto desktop:mb-8;
+}
+
+.formtext {
+  @apply mb-2 text-base;
+}
+.formtextmain {
+  @apply text-base;
+}
+
+.accenttext {
+  @apply text-main font-bold;
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../../images/vectorBackgrounds/change.svg');
+  }
+}

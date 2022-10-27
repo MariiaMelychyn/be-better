@@ -1,0 +1,11 @@
+.listContainer {
+  @apply text-sm list-outside;
+}
+
+.listContainer ul {
+  @apply list-outside  laptop:w-[148px] laptop:m-auto desktop:w-[220px] desktop:mr-0;
+}
+
+.listContainer li {
+  @apply mb-3 text-sm laptop:text-xs desktop:text-sm marker:text-main marker:text-xl list-disc;
+}

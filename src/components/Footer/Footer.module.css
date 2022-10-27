@@ -1,0 +1,71 @@
+.footerContainer {
+  @apply relative w-full h-[816px] laptop:h-[575px] desktop:h-[432px] bg-bright;
+}
+
+.gradient {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #adf0fe 72%, #fafcfc 28%);
+}
+
+.content {
+  @apply px-5 pt-8 pb-10 laptop:px-16 laptop:pt-20 laptop:pb-5 desktop:px-20 desktop:pt-10;
+}
+
+.logo {
+  @apply desktop:w-[90px] desktop:h-14 mb-4 ml-auto hover:scale-110 focus:scale-110 transition-transform;
+}
+
+.social {
+  @apply flex;
+}
+
+.title {
+  @apply mb-2 font-bold text-base laptop:font-semibold text-main laptop:text-black laptop:text-2xl desktop:mb-12 desktop:text-black desktop:w-[416px];
+}
+
+.titleContainer {
+  @apply ml-7 mb-[46px] text-start laptop:mb-4 laptop:ml-[66px];
+}
+
+.discountText {
+  @apply text-black text-lg leading-[23px] laptop:text-2xl laptop:leading-[30px] laptop:text-main laptop:w-[440px];
+}
+
+.discount {
+  @apply text-mainSecond font-medium;
+}
+
+.icf {
+  @apply w-[60px] h-14 mb-4 laptop:ml-[110px] laptop:mb-[72px] laptop:w-[90px] laptop:h-[82px] desktop:ml-auto desktop:mb-4;
+}
+
+.form {
+  @apply laptop:ml-auto desktop:ml-0 desktop:mr-[108px];
+}
+
+.accepttext {
+  @apply laptop:text-black;
+}
+
+.donate {
+  @apply text-xs mb-6 text-left laptop:text-sm laptop:w-80 laptop:ml-0 laptop:mb-10 desktop:w-50 desktop:mb-4;
+}
+
+.price {
+  @apply mb-6 text-xs text-left desktop:text-right;
+}
+
+.list {
+  @apply flex space-x-2 laptop:justify-evenly desktop:justify-center desktop:space-x-20;
+}
+
+.link {
+  @apply text-black text-xs text-left laptop:text-sm hover:text-[#038bab];
+}
+
+.background {
+  background-image: url('../../images/vectorBackgrounds/footer.svg');
+  background-position: top center;
+  background-repeat: no-repeat;
+}

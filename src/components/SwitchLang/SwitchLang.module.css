@@ -1,0 +1,11 @@
+.switcher {
+  @apply flex items-center gap-x-2 py-2 px-2 text-main;
+}
+
+.list {
+  @apply absolute top-0 py-2 w-full space-y-4 text-center bg-white text-likeGrey rounded shadow z-20;
+}
+
+.item {
+  @apply hover:text-main  focus:text-main;
+}

@@ -1,0 +1,76 @@
+.header {
+  @apply h-[52px] fixed bg-white w-full laptop:h-20 z-[1010];
+}
+
+.headerContainer {
+  @apply container m-auto flex justify-end laptop:justify-between w-80 laptop:h-20 laptop:w-768 desktop:w-[1440px] py-1 px-5 laptop:px-16 desktop:px-20  items-center;
+}
+
+.link {
+  @apply mr-auto laptop:mr-2 hover:scale-110 focus:scale-110 transition-transform;
+}
+
+.icon {
+  @apply w-[72px] h-11 laptop:w-20 laptop:h-12 desktop:w-[90px] desktop:h-14;
+}
+
+/* BurgerMenu */
+.burgerMenuClose {
+  @apply w-11 h-11 z-30 laptop:hidden;
+}
+.burgerMenuButton {
+  @apply fixed w-11 h-11 z-30;
+}
+
+.burgerMenuLines {
+  @apply top-1/2 left-1/2 -translate-y-2/4 -translate-x-2/4;
+}
+
+.burgerMenuLines::before {
+  @apply content-[''] -top-[6px] left-0;
+}
+
+.burgerMenuLines::after {
+  @apply content-[''] top-[6px] left-0;
+}
+
+.burgerMenuOverlay {
+  @apply fixed inset-0 bg-black bg-opacity-50 z-10 laptop:hidden;
+}
+
+.menuBg {
+  @apply bg-white relative z-20 pl-12 pb-4 w-full ml-auto -top-full duration-500;
+}
+
+.menuList {
+  @apply flex flex-col pt-12 text-main z-30;
+}
+
+.menuItem {
+  @apply cursor-pointer h-11 pt-3;
+}
+
+.menuLink {
+  @apply hover:border-b-2 border-main;
+}
+
+.burgerMenuLines::before,
+.burgerMenuLines::after,
+.burgerMenuLines {
+  @apply absolute w-4 h-[2px] bg-main duration-500;
+}
+
+.burgerMenuActive .menuBg {
+  @apply top-0 duration-500;
+}
+.burgerMenuActive .burgerMenuLines {
+  @apply bg-transparent;
+}
+
+.burgerMenuActive .burgerMenuLines::before {
+  @apply top-0 rotate-45;
+}
+
+.burgerMenuActive .burgerMenuLines::after {
+  @apply top-0 -rotate-45;
+}

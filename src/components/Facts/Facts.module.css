@@ -1,0 +1,116 @@
+.section {
+  @apply relative py-8 laptop:pt-12 laptop:pb-[104px] desktop:pt-20 desktop:pb-16;
+}
+
+.title {
+  @apply title-secondary mb-4 laptop:mb-8 desktop:hidden laptop:text-34;
+}
+
+.contentContainer {
+  @apply flex flex-col-reverse pb-8 desktop:flex-row px-5 laptop:pb-20 laptop:px-16  desktop:px-20;
+}
+
+.imgMob {
+  @apply rounded-2xl w-70 h-[200px] laptop:w-[640px] laptop:h-[440px];
+}
+
+.img {
+  @apply rounded-2xl desktop:ml-13  desktop:w-[524px] desktop:h-[560px];
+}
+
+.titleFacts {
+  @apply hidden desktop:block title-secondary text-34 text-left mb-13;
+}
+.listFacts {
+  @apply flex flex-wrap justify-between w-70 gap-2 laptop:gap-0  laptop:mt-[76px] laptop:w-[648px] desktop:mt-0;
+}
+
+.itemFacts {
+  @apply relative laptop:mr-4 desktop:mr-4  laptop:rounded-2xl  laptop:shadow-[#B1ACA0] laptop:hover:scale-105 laptop:ease-in laptop:duration-300;
+}
+
+.svgContainerFacts {
+  @apply laptop:w-14 h-14 laptop:bg-white laptop:rounded-2xl  absolute laptop:shadow-you laptop:-top-icon left-2/4 laptop:-translate-x-1/2 z-10;
+}
+
+.textContainer {
+  @apply relative w-[134px] text-left  laptop:w-50 laptop:h-36 laptop:bg-white laptop:rounded-2xl laptop:shadow-lg laptop:px-4 laptop:text-center flex flex-col justify-start laptop:ease-in laptop:duration-300 laptop:hover:shadow-2xl;
+}
+
+.textPr {
+  @apply text-mainSecond text-xs font-bold  laptop:text-xl desktop:text-xl tracking-wide z-10 laptop:mt-11;
+}
+
+.itemFacts:nth-child(5) .textPr {
+  @apply laptop:text-black laptop:text-sm laptop:z-10 laptop:font-normal;
+}
+.itemFacts:nth-child(3n + 3) {
+  @apply mr-0;
+}
+.itemFacts:nth-child(-n + 3) {
+  @apply laptop:mb-13;
+}
+.testSec {
+  @apply text-xs laptop:text-sm z-10;
+}
+.itemFacts:nth-child(5) .testSec {
+  @apply laptop:text-mainSecond laptop:font-bold laptop:laptop:text-xl laptop:tracking-wide laptop:z-10;
+}
+
+.bgFacts {
+  @apply absolute text-[#fccdb244] -left-[5px] laptop:left-[5px]  text-[52px] font-extrabold;
+}
+
+@media screen and (min-width: 1440px) {
+  .svgBackground {
+    background-image: url('../../images/vectorBackgrounds/facts.svg');
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/facts/facts-mob.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 2x) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/facts/facts-mob@2x.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/facts/facts-tab.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2x) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/facts/facts-tab@2x.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/facts/facts-des.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 2x) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/facts/facts-des@2x.jpg');
+    background-size: cover;
+  }
+}

@@ -1,0 +1,96 @@
+/* List */
+.container {
+  @apply m-auto text-center py-8 laptop:pb-[80px] laptop:pt-12 desktop:px-20 desktop:py-20  bg-background z-auto;
+}
+.title {
+  @apply title-primary px-10 mb-4 laptop:text-34 laptop:font-semibold laptop:tracking-wide laptop:mb-8 desktop:mb-16;
+}
+
+.list {
+  @apply items-center flex flex-col text-center justify-center laptop:flex-row desktop:justify-between;
+}
+
+.item {
+  @apply pt-10 pb-8  mb-4 w-70 laptop:mb-0 laptop:w-50 laptop:mr-5 desktop:pt-6 desktop:pb-11 desktop:px-10 desktop:w-[360px] desktop:mr-0 rounded-2xl last:mr-0 last:mb-0  hover:bg-hoverPrice shadow-you desktop:hover:scale-105 ease-in duration-300;
+}
+
+.item:nth-child(2) {
+  @apply laptop:scale-105 bg-hoverPrice hover:bg-[#b9f4ff]  desktop:hover:scale-110 ease-in duration-300;
+}
+
+/* Form */
+.modalform {
+  @apply w-80 py-10 px-5 text-base laptop:w-[440px] laptop:py-14 laptop:px-14 bg-background text-center;
+}
+
+.modalform input {
+  @apply laptop:!border-transparent laptop:shadow-formInput;
+}
+
+.modalform label {
+  @apply laptop:text-main;
+}
+
+.formtitle {
+  @apply mb-1 laptop:font-medium laptop:text-xl;
+}
+
+.formmargin {
+  @apply mb-2 laptop:mb-8;
+}
+
+.formtext {
+  @apply mb-2 text-base;
+}
+
+.accenttext {
+  @apply text-main font-bold;
+}
+
+.price {
+  @apply mb-[34px] text-xl text-main font-bold;
+}
+
+.checkbox {
+  @apply mb-9;
+}
+.checkbox span {
+  @apply laptop:bg-[#7FDCF1]  laptop:border-main  desktop:border-likeGrey desktop:bg-transparent;
+}
+.acceptmodal {
+  @apply laptop:text-black laptop:!bg-transparent;
+}
+.underformtext {
+  @apply text-sm laptop:text-base;
+}
+.titleSuccess {
+  @apply mb-[10px] desktop:mb-1 text-xl desktop:text-2xl font-medium desktop:font-semibold text-main;
+}
+.textSuccess {
+  @apply desktop:font-medium text-base desktop:text-xl text-black;
+}
+/* Card */
+.subscription {
+  @apply text-main mb-2 font-bold  desktop:text-xl desktop:font-medium desktop:mb-14;
+}
+
+.priceStyle {
+  @apply mb-1 desktop:mb-2 text-2xl font-semibold desktop:text-34;
+}
+.economyStyle {
+  @apply mb-5 text-xs desktop:mb-16 desktop:text-base text-main;
+}
+
+.buttonStyled {
+  @apply px-20 rounded-3xl border border-none laptop:px-10 desktop:px-[88px] py-[11px];
+}
+
+.donation {
+  @apply text-center m-auto w-70 mt-4 text-[9px] laptop:mt-12 laptop:text-base laptop:w-480 desktop:mt-11;
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../../images/vectorBackgrounds/price.svg');
+  }
+}

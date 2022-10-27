@@ -1,0 +1,31 @@
+.headerContainer {
+  @apply flex desktop:flex-row laptop:w-[768px];
+}
+
+.logo {
+  @apply w-9 h-5 hover:scale-110 mr-20 transition-transform tablet:ml-1  tablet:mt-4 laptop:mt-5 laptop:ml-13 laptop:mr-40 laptop:pl-14;
+}
+
+.link {
+  @apply max-w-xs cursor-pointer  mb-16   desktop:mt-24;
+}
+
+.contentContainer {
+  @apply text-start desktop:w-[740px]  block tablet:ml-5 laptop:ml-28 desktop:ml-60;
+}
+
+.title {
+  @apply text-main tablet:text-2xl -mt-[62px]  font-semibold laptop:text-4xl absolute mb-2 laptop:-mt-[72px] desktop:-mt-[190px];
+}
+
+.textContainer {
+  @apply pt-0  mt-32  laptop:mt-[34px]  desktop:mt-[150px];
+}
+
+.textContainer h2 {
+  @apply mb-5 mt-5;
+}
+
+.textContainer h3 {
+  @apply desktop:text-xl font-medium text-likeGrey mb-20;
+}

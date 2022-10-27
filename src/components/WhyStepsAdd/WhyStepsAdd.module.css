@@ -1,0 +1,53 @@
+@media screen and (max-width: 767px) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/steps-review/steps-review-mob.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 2x) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/steps-review/steps-review-mob@2x.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/steps-review/steps-review-tab.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2x) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/steps-review/steps-review-tab@2x.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/steps-review/steps-review-des.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 2x) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../../images/background/steps-review/steps-review-des@2x.jpg');
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .svgBackground {
+    background-image: url('../../images/vectorBackgrounds/steps.svg');
+  }
+}

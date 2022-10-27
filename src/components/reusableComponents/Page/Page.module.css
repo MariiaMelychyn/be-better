@@ -1,0 +1,67 @@
+.titleFacts {
+  @apply text-main text-xl pl-[15px] pr-[15px] font-medium laptop:font-semibold laptop:text-4xl text-center desktop:pl-20 desktop:ml-0 desktop:w-[100%] -top-20 max-w-7xl laptop:mb-4 desktop:mb-0;
+}
+
+.listFacts {
+  @apply relative flex flex-wrap justify-center w-full min-w-min text-sm pr-4 pb-8 desktop:max-w-7xl text-start desktop:pb-24 pt-2 desktop:flex-nowrap;
+}
+
+.listFacts li {
+  @apply pt-4 pl-4 relative;
+}
+
+.listFacts li:nth-child(1) {
+  @apply mb-3  -ml-[1rem] mt-[1.5rem] laptop:mr-[1.75rem] laptop:ml-12 desktop:mb-0 mr-5 desktop:mt-64  laptop:w-48 desktop:ml-20 laptop:h-[180px] laptop:border-t-[20px] laptop:border-l-[20px] laptop:border-l-main laptop:border-t-main;
+}
+.listFacts li:nth-child(2) {
+  @apply mb-3 -ml-[1rem] laptop:mr-[1.75rem] laptop:mt-[24px] desktop:mb-0 mr-5  desktop:mt-52 w-48 laptop:h-[180px] laptop:border-t-[20px] laptop:border-l-[20px] laptop:border-l-stepsOne laptop:border-t-stepsOne;
+}
+.listFacts li:nth-child(3) {
+  @apply mb-3 -ml-[1rem]  desktop:mb-0 mr-5 laptop:mt-[24px] desktop:mt-40  w-48 laptop:mb-[70px] laptop:h-[180px] laptop:border-t-[20px] laptop:border-l-[20px] laptop:border-l-stepsTwo laptop:border-t-stepsTwo;
+}
+
+.listFacts li:nth-child(4) {
+  @apply -ml-[0rem] laptop:mr-[1.75rem] laptop:ml-[0.75rem] tablet:mr-10   desktop:mt-28 desktop:ml-0 w-48 laptop:h-[180px] laptop:border-t-[20px] laptop:border-l-[20px] laptop:border-l-stepsThree laptop:border-t-stepsThree;
+}
+
+.listFacts li:nth-child(5) {
+  @apply -ml-[0.5rem] laptop:mr-[3rem] tablet:mr-[2rem]  desktop:mt-16 w-48 laptop:h-[180px] laptop:border-t-[20px] laptop:border-l-[20px] laptop:border-l-stepsFour laptop:border-t-stepsFour;
+}
+.listFacts li:nth-child(6) {
+  @apply -ml-[2rem] laptop:-mr-5 desktop:mt-5 w-48 laptop:h-[180px] laptop:border-t-[20px] laptop:border-l-[20px] laptop:border-l-stepsFive laptop:border-t-stepsFive;
+}
+
+.textPr {
+  @apply text-main list-none  list-inside font-bold text-sm;
+}
+
+.textContainer {
+  @apply w-50 h-36 mt-36 text-center flex flex-col justify-center;
+}
+
+.testSec {
+  @apply font-normal text-sm w-[197px] laptop:w-[160px];
+}
+
+.iconClass {
+  @apply tablet:hidden desktop:flex items-center justify-center desktop:w-[16px] desktop:h-[16px] absolute top-[-46px] right-0;
+}
+
+.svgContainerFacts {
+  @apply w-5 h-5   absolute -top-5  left-7   z-10;
+}
+
+.iconFacts {
+  @apply mt-14 ml-0 w-[22px] h-[22px];
+}
+
+.svgBgFacts {
+  @apply icons-step fill-mainSecondLight laptop:-mt-[7rem] -ml-5 desktop:-mt-[4.5rem];
+}
+
+.itemFacts {
+  @apply relative w-48;
+}
+.itemFactsMob {
+  @apply relative w-48;
+}

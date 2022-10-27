@@ -1,0 +1,58 @@
+.formula {
+  @apply text-center py-8 relative laptop:pb-[76px] laptop:pt-12 desktop:py-20;
+}
+
+.title {
+  @apply px-5 title-primary mb-20 desktop:text-34;
+}
+
+.list {
+  @apply flex flex-col desktop:flex-row justify-around;
+}
+
+.icon {
+  @apply fill-main;
+}
+
+.iconBg {
+  @apply bg-white  -top-icon  left-2/4 -translate-x-1/2;
+}
+
+.listFormula {
+  @apply flex flex-col laptop:flex-row justify-center;
+}
+.formulaContainer {
+  @apply flex items-center flex-col laptop:flex-row;
+}
+.formulaContainer:last-child .iconArrow {
+  @apply hidden;
+}
+.itemFormula {
+  @apply relative flex flex-col items-center laptop:flex-row shadow-[#AAC1C6];
+}
+.iconFormula {
+  @apply stair-icons fill-main mt-[10px];
+}
+.svgBgFormula {
+  @apply stair-iconsBg fill-iconBg left-[110px] laptop:left-[100px] laptop:bottom-[25px]   desktop:left-[120px];
+}
+
+.svgContainerFormula {
+  @apply w-14 h-14 bg-white rounded-lg absolute shadow-you -top-[25px] left-1/2 -translate-x-1/2  z-10;
+}
+
+.textContainerFormula {
+  @apply w-50 h-36 bg-white relative rounded-2xl shadow-lg desktop:px-10 text-center flex flex-col justify-center ease-in duration-300 hover:shadow-2xl laptop:w-[184px] desktop:w-50;
+}
+.iconArrow {
+  @apply mt-2 mb-[36px] h-14  w-14 laptop:w-8 laptop:h-8 desktop:w-12 desktop:h-12 text-likeGrey laptop:mt-[6px] laptop:mb-[6px] laptop:-rotate-90 desktop:mr-[38px] desktop:ml-[38px];
+}
+.testSec {
+  @apply text-xs laptop:text-sm z-10;
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../../images/vectorBackgrounds/formula.svg');
+  }
+}

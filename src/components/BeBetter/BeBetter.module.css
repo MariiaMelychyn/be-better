@@ -1,0 +1,21 @@
+.textBeBetter {
+  @apply font-normal text-xs desktop:pl-0 desktop:w-[576px];
+}
+
+.textBeBetter span {
+  @apply block text-caveat text-center mb-4 laptop:w-[310px] desktop:w-[400px] desktop:text-left;
+}
+
+.textBeBetter ul {
+  @apply text-start font-normal pr-2 laptop:w-[310px] desktop:ml-[10px] desktop:w-[476px] desktop:mb-16;
+}
+
+.textBeBetter li {
+  @apply pb-3 ml-[10px] mr-[10px] text-start font-normal text-sm laptop:text-base list-disc mb-2 marker:text-main desktop:w-[476px];
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../../images/vectorBackgrounds/be-better.svg');
+  }
+}

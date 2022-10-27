@@ -1,0 +1,3 @@
+.wrapper {
+  @apply container text-center m-auto max-w-xs h-full laptop:max-w-3xl  desktop:max-w-screen-desktop;
+}

@@ -1,0 +1,177 @@
+/* JustForm */
+.form {
+  @apply w-70 z-10 laptop:w-80;
+}
+
+.input {
+  @apply w-full mb-3 pl-8 h-11 border border-main rounded-full text-main desktop:border-transparent desktop:shadow-formInput;
+}
+
+.label {
+  @apply absolute left-8 top-3 text-sm text-main desktop:text-likeGrey hover:text-main transition-transform;
+}
+
+.phonebutton {
+  @apply !pl-6 !rounded-l-full !border-hidden !bg-transparent;
+}
+
+.phoneinput {
+  @apply !pl-[72px] !h-11 text-main !border-buttonMobile desktop:!border-hidden !w-full !rounded-full desktop:shadow-formInput desktop:text-likeGrey;
+}
+
+.phonedropdown {
+  @apply left-0 top-0 !m-0 !pl-8 !w-70 laptop:!w-80 text-left !rounded-2xl snap-start;
+}
+
+.phonedropdown::-webkit-scrollbar {
+  @apply w-4 rounded-r-xl bg-[#e4eaeb];
+}
+
+.phonedropdown::-webkit-scrollbar-thumb {
+  @apply h-2 mt-11 rounded bg-likeGrey;
+}
+
+.error {
+  @apply absolute -top-2 right-3 z-10 bg-white px-2 py-1 rounded-lg text-error text-xs;
+}
+
+.modalsuccess {
+  @apply w-80 laptop:w-[440px] py-[72px] laptop:px-[68px] bg-white text-center z-20;
+}
+
+.input:focus + .label,
+.input:not(:placeholder-shown) + .label {
+  @apply text-xs text-main bg-white px-2 py-1 rounded-lg -translate-y-5;
+}
+
+.checkbox {
+  @apply absolute appearance-none;
+}
+
+.checkboxLabel {
+  @apply flex items-start mt-1 mb-8 pl-2 pt-1 laptop:mb-9;
+}
+.checkbox:checked + .check {
+  @apply transition-all duration-200 bg-[url('../../images/check.svg')] bg-no-repeat bg-left laptop:bg-[url('../../images/checkWhite.svg')] desktop:bg-[url('../../images/check.svg')];
+}
+
+.check {
+  @apply min-w-[16px] min-h-[16px] border-2 border-main  desktop:border-likeGrey rounded-[5px];
+}
+
+.acceptText {
+  @apply ml-3	text-left text-xs text-black;
+}
+
+.checkError {
+  @apply absolute top-10 laptop:top-[36px] left-8 text-error text-xs;
+}
+
+.buttonF {
+  @apply h-12 w-full border border-main rounded-full text-white;
+}
+
+/* FormInModal */
+.modalform {
+  @apply w-[320px] laptop:w-[440px] py-10 px-5 bg-background text-center;
+}
+
+.modalform input {
+  @apply laptop:!border-transparent laptop:shadow-formInput;
+}
+
+.modalform label {
+  @apply laptop:text-main;
+}
+
+.modaltitle {
+  @apply mb-[10px] laptop:mb-1 text-xl laptop:text-2xl font-medium laptop:font-semibold text-main;
+}
+
+.modaltext {
+  @apply laptop:font-medium text-base laptop:text-xl text-black;
+}
+
+.formHi {
+  @apply text-base laptop:text-xl;
+}
+
+.formConnect {
+  @apply text-base mb-[72px] laptop:text-xl laptop:mb-13;
+}
+
+.modalcheck {
+  @apply mb-8 text-black;
+}
+
+.modalcheck span {
+  @apply laptop:bg-[#7FDCF1] laptop:border-main  desktop:border-likeGrey desktop:bg-transparent;
+}
+.modalAccept {
+  @apply laptop:text-black laptop:!bg-transparent;
+}
+.formMargins {
+  @apply m-auto mb-2 laptop:mb-8;
+}
+.formSee {
+  @apply text-center text-sm laptop:text-base;
+}
+/* WithDiscount */
+.discountText {
+  @apply text-black text-lg leading-[23px] text-left laptop:w-81 desktop:ml-auto desktop:mr-50;
+}
+
+.discount {
+  @apply text-mainSecond font-medium;
+}
+
+/* FormInMain*/
+.mainContainer {
+  @apply h-[638px] laptop:h-[1053px] desktop:h-[760px];
+}
+
+.mobContainer {
+  @apply laptop:hidden;
+}
+
+.tabContainer {
+  @apply hidden laptop:block desktop:hidden;
+}
+
+.content {
+  @apply px-5 pt-10 laptop:px-16 laptop:pt-40 desktop:pt-20 desktop:pl-0 desktop:pr-20;
+}
+
+.soctitle {
+  @apply flex laptop:justify-between laptop:flex-row-reverse desktop:justify-start;
+}
+
+.sociaListlInMain {
+  @apply space-y-3 laptop:space-y-8;
+}
+
+.ifYou {
+  @apply text-xl mb-[70px] laptop:mb-50 laptop:text-black desktop:mb-10 laptop:text-34 font-semibold;
+}
+
+.emo {
+  @apply text-2xl laptop:text-32 text-black font-caveat font-normal;
+}
+
+.formInMain {
+  @apply m-auto mb-8 laptop:!m-0 laptop:!mr-auto laptop:!mb-[120px] desktop:!mb-2 desktop:!ml-auto desktop:!mr-50;
+}
+
+.checkboxInMain {
+  @apply mb-8;
+}
+
+.acceptInMain {
+  @apply laptop:text-black;
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../../images/vectorBackgrounds/video.svg');
+  }
+}

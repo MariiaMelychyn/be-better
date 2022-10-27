@@ -1,0 +1,17 @@
+.buttonCss {
+  @apply bg-white text-mainSecond text-sm hover:bg-main px-1 py-1;
+}
+
+.textContainer::-webkit-scrollbar-thumb {
+  @apply bg-[#F7B188] rounded-xl w-2;
+}
+.textContainer::-webkit-scrollbar {
+  @apply bg-[#FCD9C4] rounded-xl w-2;
+}
+
+.authorContainer {
+  @apply flex items-center;
+}
+.authorContainer img {
+  @apply rounded-full;
+}

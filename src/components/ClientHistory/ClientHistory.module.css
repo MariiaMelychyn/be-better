@@ -1,0 +1,16 @@
+.client {
+  @apply text-sm laptop:text-base laptop:leading-[1.36] desktop:w-[518px] laptop:w-[320px] desktop:ml-5 h-[228px] laptop:h-[290px] desktop:h-[200px] overflow-y-auto mb-4;
+}
+
+.client::-webkit-scrollbar-thumb {
+  @apply bg-main rounded-xl w-2;
+}
+.client::-webkit-scrollbar {
+  @apply bg-likeGrey rounded-xl w-2;
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../../images/vectorBackgrounds/stories.svg');
+  }
+}

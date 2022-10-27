@@ -1,0 +1,135 @@
+backend:
+  name: git-gateway
+  repo: GoWeb-Internship/be-better
+  branch: master
+media_folder: 'static/image'
+public_folder: '/image'
+
+collections:
+  # Price
+  - name: 'price'
+    label: 'Price'
+    folder: 'content/price'
+    create: false
+    delete: false
+    slug: '{{enSubscription}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Subscription Ua', name: 'ukSubscription', widget: 'string' }
+      - { label: 'Subscription En', name: 'enSubscription', widget: 'string' }
+      - { label: 'Subscription Ru', name: 'ruSubscription', widget: 'string' }
+      - { label: 'Price', name: 'price', widget: 'number' }
+      - { label: 'Economy', name: 'economy', widget: 'number' }
+      - { label: 'Month Ua', name: 'ukMonth', widget: 'string' }
+      - { label: 'Month En', name: 'enMonth', widget: 'string' }
+      - { label: 'Month Ru', name: 'ruMonth', widget: 'string' }
+      - { label: 'Hour Ua', name: 'ukHour', widget: 'string' }
+      - { label: 'Hour En', name: 'enHour', widget: 'string' }
+      - { label: 'Hour Ru', name: 'ruHour', widget: 'string' }
+      - { label: 'Id', name: 'id', widget: 'hidden' }
+  #donats
+  - name: 'donations'
+    label: 'Donations'
+    folder: 'content/donations'
+    create: true
+    delete: false
+    slug: '{{name}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Donations Ua', name: 'ukDonations', widget: 'string' }
+      - { label: 'Donations En', name: 'enDonations', widget: 'string' }
+      - { label: 'Donations Ru', name: 'ruDonations', widget: 'string' }
+  #history clients
+  - name: 'history'
+    label: 'History'
+    folder: 'content/clientHistory'
+    create: true
+    delete: true
+    slug: '{{enName}}-{{enPosition}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Name Ua', name: 'ukName', widget: 'string' }
+      - { label: 'Position Ua', name: 'ukPosition', widget: 'string' }
+      - { label: 'Text Ua', name: 'ukText', widget: 'string' }
+      - { label: 'Name En', name: 'enName', widget: 'string' }
+      - { label: 'Position En', name: 'enPosition', widget: 'string' }
+      - { label: 'Text En', name: 'enText', widget: 'string' }
+      - { label: 'Name Ru', name: 'ruName', widget: 'string' }
+      - { label: 'Position Ru', name: 'ruPosition', widget: 'string' }
+      - { label: 'Text Ru', name: 'ruText', widget: 'string' }
+      - { label: 'Language', name: 'language', widget: 'hidden', default: 'uk' }
+  #reviews
+  - name: 'reviews'
+    label: 'Reviews'
+    folder: 'content/reviews'
+    create: true
+    delete: true
+    slug: '{{enName}}-{{enPosition}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Name Ua', name: 'ukName', widget: 'string' }
+      - { label: 'Position Ua', name: 'ukPosition', widget: 'string' }
+      - { label: 'Text Ua', name: 'ukText', widget: 'string' }
+      - { label: 'Name En', name: 'enName', widget: 'string' }
+      - { label: 'Position En', name: 'enPosition', widget: 'string' }
+      - { label: 'Text En', name: 'enText', widget: 'string' }
+      - { label: 'Name Ru', name: 'ruName', widget: 'string' }
+      - { label: 'Position Ru', name: 'ruPosition', widget: 'string' }
+      - { label: 'Text Ru', name: 'ruText', widget: 'string' }
+      - {
+          label: 'Avatar',
+          name: 'image',
+          widget: image,
+          choose_url: true,
+          required: false,
+          media_folder: 'static/image',
+        }
+      - { label: 'Language', name: 'language', widget: 'hidden', default: 'uk' }
+  # Discount
+  - name: 'discount'
+    label: 'Discount'
+    folder: 'content/discount'
+    slug: '{{slug}}'
+    create: false
+    delete: false
+    editor:
+      preview: true
+    fields:
+      - { label: 'First Uk', name: 'ukFirst', widget: 'string' }
+      - { label: 'First En', name: 'enFirst', widget: 'string' }
+      - { label: 'First Ru', name: 'ruFirst', widget: 'string' }
+      - { label: 'Discount Uk', name: 'ukDiscount', widget: 'string' }
+      - { label: 'Discount En', name: 'enDiscount', widget: 'string' }
+      - { label: 'Discount Ru', name: 'ruDiscount', widget: 'string' }
+      - { label: 'Second Uk', name: 'ukSecond', widget: 'string' }
+      - { label: 'Second En', name: 'enSecond', widget: 'string' }
+      - { label: 'Second Ru', name: 'ruSecond', widget: 'string' }
+
+  #oferta
+  - name: 'oferta'
+    label: 'Oferta'
+    folder: 'content/oferta'
+    create: false
+    delete: false
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Language', name: 'language', widget: 'hidden', default: 'uk' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  #Policy
+  - name: 'policy'
+    label: 'Policy'
+    folder: 'content/pk'
+    create: false
+    delete: false
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Language', name: 'language', widget: 'hidden', default: 'uk' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

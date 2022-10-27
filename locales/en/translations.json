@@ -1,0 +1,294 @@
+{
+  "seo": {
+    "title": "Be better!",
+    "description": "If you are emotionally burnt out and live without pleasure."
+  },
+  "header": {
+    "nav": [
+      { "name": "About", "id": "nav-about" },
+      { "name": "Reviews", "id": "nav-reviews" },
+      { "name": "Price", "id": "nav-price" },
+      { "name": "Feedback", "id": "nav-feedback" }
+    ],
+    "toMain": "To main"
+  },
+  "modalSuccess": {
+    "gratitude": "Thanks for the application!",
+    "text": "Now you are one step closer to the moment of your happy life!"
+  },
+  "aboutMe": {
+    "title": "Let's get acquainted",
+    "alt": "Author with glasses",
+    "oneParagraphFirst": "Hello, I'm Yuliya and ",
+    "oneParagraphSpan": "my motto is - to live it up! ",
+    "oneParagraphThird": "I always do what brings me pleasure and fun, I like to discover new cities, countries, continents and I can’t stop doing it. ",
+    "twoParagraphSpan": "For more than 7 years ",
+    "twoParagraphThird": "I have been helping start-up companies to develop and optimize their business. ",
+    "threeParagraphFirst": "My goal is to make this world a little better and increase the number of ",
+    "threeParagraphSpan": "conscious happy people. ",
+    "threeParagraphThird": "That’s why, since 2021, I decided to devote myself to coaching and use all my experience to help those who are lost and can’t see any prospects or don’t know where to start.",
+    "fourParagraph": "Together we will reveal your potential, analyze your desires and determine what slows you down along the way to your goals.",
+    "fiveParagraphSpan": "And you will definitely get to know what it is to live it up!"
+  },
+  "bebetter": {
+    "jumper": "Rock jumper",
+    "auto": "Cool auto",
+    "glasses": "Glasses"
+  },
+  "changes": {
+    "orangeBgRectangular ": "Orange rectangular background",
+    "mobileBg": "Orange background",
+    "arrowWithBg": "Arrow with background",
+    "arrow": "Arrow",
+    "author": "Julia on the beach"
+  },
+  "hero": {
+    "teach": "I will teach you",
+    "life": "  to live",
+    "kaif": "in high spirits",
+    "emotion": "without emotional",
+    "burn": "burnouts",
+    "if": "If you ",
+    "emo": " are emotionally burnt out",
+    "yourLife": "your life",
+    "pleasure": "and don’t enjoy ",
+    "background": "Background beach"
+  },
+  "guarantee": {
+    "background": "Julia near the car"
+  },
+  "couch": {
+    "title": "Why it is better with a coach?",
+    "mySelf": "“I’ll do it myself” is a common mistake of people who drive themselves and constantly face burnout…",
+    "course": "Of course, you can do it yourself, if you find the time and energy to study all the necessary information, you will understand what you need, what are the problems and start acting.",
+    "noTime": "But there is not enough time anyway, and your current knowledge has led to the current situation.",
+    "why": "What for you need to “reinvent the wheel“, waste time, money, energy and to go all the way yourself and, besides, you don’t even know whether it will be successful.  Instead, you can call for professional help and achieve results faster and easier. That's what all successful people do!",
+    "withNote": "Julia with laptop",
+    "notebook": "Laptop",
+    "skyscraper": "Skyscraper"
+  },
+  "modalForm": {
+    "hi": "Hi",
+    "connection": "I will contact you soon",
+    "seeYou": "See you"
+  },
+  "form": {
+    "nameInput": "Name",
+    "accept": "I agree to the processing of my personal data",
+    "button": "Take the first step",
+    "greeting": "Hi!",
+    "packet": "You have chosen a package ",
+    "connection": "I will contact you soon!",
+    "minimum": "Basic",
+    "base": "Standard",
+    "optimal": "Professional",
+    "errorMessage": {
+      "nameMatch": "Please enter valid name",
+      "nameMin": "Name must contain 3 or more letters",
+      "nameMax": "Name can not contain more then 100 letters",
+      "nameRequired": "Name is required",
+      "emailMatch": "Please enter valid email",
+      "emailMin": "Email must contain 10 or more symbols",
+      "emailMax": "Email can not contain more then 63 symbols",
+      "emailRequired": "Email is required",
+      "phoneMin": "Number must contain at least 8 digits",
+      "phoneMax": "Number cannot contain more than 13 digits",
+      "phoneReguired": "Phone number is required",
+      "check": "You must accept the terms"
+    }
+  },
+  "pages": {
+    "logo": "Logo",
+    "background": "Background",
+    "hand": "Hand with a pen",
+    "arrow": "Go back",
+    "security": "Privacy img"
+  },
+  "reviews": {
+    "title": "Сustomer feedback ❤️"
+  },
+  "facts": {
+    "title": "Facts about me",
+    "list": [
+      {
+        "textPrimary": "15 years",
+        "textSecondary": "in international business",
+        "svg": "bag",
+        "bg": "15"
+      },
+      {
+        "textPrimary": "30+",
+        "textSecondary": "satisfied customers",
+        "svg": "ok",
+        "bg": "30"
+      },
+      {
+        "textPrimary": "7 years",
+        "textSecondary": "in sales and startup development",
+        "svg": "scale",
+        "bg": "7"
+      },
+      {
+        "textPrimary": "6 years",
+        "textSecondary": "of work with business managers",
+        "svg": "house",
+        "bg": "6"
+      },
+      {
+        "textPrimary": "life coach",
+        "textSecondary": "ICF since 2021",
+        "svg": "icf",
+        "bg": "ICF"
+      },
+      {
+        "textPrimary": "500+",
+        "textSecondary": "hours of practice",
+        "svg": "clock",
+        "bg": "500+"
+      }
+    ],
+    "background": "Orange background",
+    "author": "Julia in the office with a laptop"
+  },
+  "formula": {
+    "title": "My formula is very simple and effective",
+    "list": [
+      {
+        "firstWord": "Understand",
+        "colorWord": " what",
+        "thirdWord": " you want",
+        "svg": "idea"
+      },
+      {
+        "firstWord": "Understand",
+        "colorWord": " how",
+        "thirdWord": " to get it",
+        "svg": "puzzle"
+      },
+      { "firstWord": "Start", "colorWord": " doing!", "svg": "toDo" }
+    ],
+    "background": "Background img"
+  },
+  "footer": {
+    "links": [
+      { "name": "Privacy Policy", "id": "policy" },
+      { "name": "Public offer", "id": "oferta" }
+    ],
+    "priceByOne": "*The cost for one session 100$",
+    "logo": "Logo"
+  },
+  "littleComponents": {
+    "button": "Sign up",
+    "reviewButtonMore": "Read more...",
+    "reviewButtonLess": "Read less..."
+  },
+  "clientHistory": {
+    "title": "Incredible customer stories"
+  },
+  "price": {
+    "title": "The cost of your life is high",
+    "economy": "Saving"
+  },
+  "steps": {
+    "title": "What are your 6 most important results?",
+    "background": "Background  img",
+    "page": [
+      {
+        "textPrimary": "1 Understanding",
+        "textSecondary": "Understand what you really want in life and begin to purposefully move towards your desires",
+        "svg": "gone",
+        "img": "one",
+        "icon": "rone"
+      },
+      {
+        "textPrimary": "2 Value",
+        "textSecondary": "You will begin to live a conscious and full life paying attention to important things that you previously put off or ignored",
+        "svg": "gtwoo",
+        "img": "two",
+        "icon": "rtwo"
+      },
+      {
+        "textPrimary": "3 Confidence",
+        "textSecondary": "You will gain courage and self-confidence, you will begin to do what you could not decide on before.",
+        "svg": "gthree",
+        "img": "three",
+        "icon": "rthree"
+      },
+      {
+        "textPrimary": "4 Settings",
+        "textSecondary": "You will change your attitude towards yourself and the environment, you will find productive attitudes that will help you reach a new level of life",
+        "svg": "gfor",
+        "img": "four",
+        "icon": "rfor"
+      },
+      {
+        "textPrimary": "5 Energy",
+        "textSecondary": "Increase your personal efficiency and energy level to move towards your goals",
+        "svg": "gfive",
+        "img": "five",
+        "icon": "rfive"
+      },
+      {
+        "textPrimary": "6 Pleasure",
+        "textSecondary": "Fill your life with pleasure and incredible accomplishments",
+        "svg": "gsix",
+        "img": "six"
+      }
+    ]
+  },
+  "notFound": {
+    "something": "Something went wrong(",
+    "work": "We are already working to fix this!",
+    "timeToReturn": "In the meantime, you can return to the main page",
+    "returnLink": "Return to main",
+    "background": "Background  img",
+    "rain": "Girl in the rain"
+  },
+  "stepsnew": {
+    "title": "How we do it in 6 easy steps",
+    "background": "Background  img",
+    "steps": [
+      {
+        "textPrimary": "Step 1",
+        "textSecondary": "We will deal with your fears and limiting beliefs that are holding you back",
+        "svg": "gone",
+        "img": "one",
+        "icon": "rone"
+      },
+      {
+        "textPrimary": "Step 2",
+        "textSecondary": "We will reveal your true desires and goals, not those imposed by others",
+        "svg": "gtwoo",
+        "img": "two",
+        "icon": "rtwo"
+      },
+      {
+        "textPrimary": "Step 3",
+        "textSecondary": " Let's learn to rejoice in small victories and advance step by step towards the dream",
+        "svg": "gthree",
+        "img": "three",
+        "icon": "rthree"
+      },
+      {
+        "textPrimary": "Step 4",
+        "textSecondary": "Let's understand where the energy goes, why there are not enough 24 hours a day and how to change it",
+        "svg": "gfor",
+        "img": "four",
+        "icon": "rfor"
+      },
+      {
+        "textPrimary": "Step 5",
+        "textSecondary": "Let's find out what else is needed to get the desired result and where to get it",
+        "svg": "gfive",
+        "img": "five",
+        "icon": "rfive"
+      },
+      {
+        "textPrimary": "Step 6",
+        "textSecondary": "We will make your personal action plan for the year, quarter, month, week, day and start implementing it",
+        "svg": "gsix",
+        "img": "six"
+      }
+    ]
+  }
+}

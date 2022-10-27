@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;400;500;600&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  color: #05202c;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafcfc;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* phone-input styles */
+
+.react-tel-input .country-list .search-box {
+  @apply !-ml-10 !w-[256px] desktop:!w-[300px] !pl-8 !border-x-transparent !border-t-transparent !border-b-main text-main !shadow-none;
+}
+.react-tel-input .country-list .search-box::placeholder {
+  @apply text-main;
+}
+
+.react-tel-input .country-list .search::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  display: block;
+  background-image: url('../images/FaSearch.svg');
+  width: 21px;
+  height: 21px;
+  margin: 0 6px 0 0;
+}
+
+.react-tel-input .selected-flag:hover {
+  @apply !bg-transparent;
+}
+.react-tel-input .country-list .country.highlight {
+  @apply !bg-transparent;
+}
+.react-tel-input .country-list .country-name {
+  @apply text-black;
+}
+.react-tel-input .country-list .country-name:hover {
+  @apply text-main !bg-transparent;
+}
+
+/* slider */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+
+.prev-slider,
+.next-slider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: opacity 200ms linear;
+  z-index: 1000;
+  color: #4d2107;
+}
+
+.prev-slider {
+  left: 80px;
+}
+
+.next-slider {
+  right: 80px;
+}
+
+.slide.h-auto {
+  height: auto;
+}
+
+.swiper-mobile-translate {
+  transform: translateX(calc(50vw - 152px));
+}
+
+.slider-width {
+  max-width: calc(100vw - 40px);
+}
+
+.slider-item-width {
+  max-width: calc(100vw - 80px);
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #4d2107;
+  opacity: 1;
+}
+.swiper-pagination-bullet {
+  background-color: red;
+  opacity: 1;
+}
